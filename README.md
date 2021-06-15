@@ -52,4 +52,18 @@ return (
 
 ```
 
+## Move to another screen
+* Press a button to go to LoginScreen from HomeScreen
+```javascript
+export default function HomeScreen({ navigation }) {
+  return (
+    <View>
+      <Text>Home Screen</Text>
+      <Button title="Login" onPress={() => navigation.navigate('Login')} />
+    </View>
+  );
+}
+
+```
+
 
