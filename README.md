@@ -66,4 +66,10 @@ export default function HomeScreen({ navigation }) {
 
 ```
 
+## Go back to previous screen
+
+```javascript
+<Button title="Go back" onPress={() => navigation.goBack()} />
+```
+
 
