@@ -72,4 +72,9 @@ export default function HomeScreen({ navigation }) {
 <Button title="Go back" onPress={() => navigation.goBack()} />
 ```
 
+## Go back to the first screen
+```javascript
+<Button title="Go back to first screen in stack" onPress={() => navigation.popToTop()} />
+```
+
 
